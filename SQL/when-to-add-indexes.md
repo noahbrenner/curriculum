@@ -33,6 +33,28 @@ Now, talking about queries' performance on indexed table:
 - create non-clustered indexes on columns used frequently in `JOIN` queries
 - indexing columns is important when working with exact-match queries
 
+---
+## Practice
+
+Consider the item table:
+```
+id  | cost  |    name       
+====+=======+============
+  1 |     0 | master-ball
+  2 |  1200 | ultra-ball
+  3 |   600 | great-ball
+  4 |   200 | poke-ball
+
+    ???
+
+```
+
+Suppose that `PRIMARY KEY` isn't set yet. Choose the query that will create a clustered index on the `id` column.
+
+* CREATE UNIQUE INDEX id_clustered ON item(id);
+* CREATE UNIQUE INDEX id_clustered ON item(cost);
+* CREATE INDEX id_clustered ON item(id);
+
 
 ---
 ## Revision
@@ -40,7 +62,7 @@ Now, talking about queries' performance on indexed table:
 Consider the "experience" table. We want to create a non-clustered index on the "experience" column:
 ```
 id  | level | experience | growth_rate_id
------+-------+------------+----------------
+====+=======+============+================
   1 |     1 |          0 |              1
   2 |     2 |         10 |              1
   3 |     3 |         33 |              1

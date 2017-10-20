@@ -55,7 +55,7 @@ id | region_id |      name
  5 |         5 | generation-v
  6 |         6 | generation-vi
 (6 rows)
-
+-----
 ??? ??? test_index
 ON region (???, name);
 
@@ -76,7 +76,7 @@ Consider the "version" table. Suppose no primary key was defined for it. We need
 id | version_group_id |      name      
 ===+==================+===============
 .....
-4  |                3 | gold
+4  |                3 | gold----
 5  |                3 | silver
 6  |                4 | crystal
 7  |                5 | ruby
@@ -91,6 +91,6 @@ id | version_group_id |      name
     ???
 ```
 
-* CREATE UNIQUE INDEX "u_index" ON version (version_group_id ASC);
-* CREATE UNIQUE INDEX "u_index" ON version (version ASC);
-* CREATE INDEX "u_index" ON version (version_group_id ASC);
+* CREATE UNIQUE INDEX u_index ON version (version_group_id ASC);
+* CREATE UNIQUE INDEX u_index ON version (version ASC);
+* CREATE INDEX u_index ON version (version_group_id ASC);
