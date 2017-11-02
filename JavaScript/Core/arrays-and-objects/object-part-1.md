@@ -11,6 +11,14 @@ inAlgoPool: false
 
 category: must-know
 
+tags:
+  - introduction
+  - workout
+
+standards:
+  js.evaluate-expressions: 10
+  js.data-types-structures: 20
+
 links:
 
   - >-
@@ -21,7 +29,7 @@ links:
 ## Content
 
 JavaScript has a special type called *Object* which is a collection of keys and values.
- 
+
 Pretty much everything apart from primitive values inherit from this special type.
 
 **Creating objects**
@@ -38,7 +46,7 @@ var per = {
 
 **Accessing object properties**
 
-Objects have properties which can be both primitive values and functions. 
+Objects have properties which can be both primitive values and functions.
 
 These properties are generally accessed via dot notation.
 
@@ -47,7 +55,7 @@ We can access our person objects name with the dot syntax:
 console.log(per.firstName); //john
 ```
 
-We can also access properties using the array syntax. 
+We can also access properties using the array syntax.
 
 This can be useful when you don’t know the name of the property you want and want to dynamically change it at runtime.
 ```

@@ -11,6 +11,15 @@ inAlgoPool: false
 
 category: must-know
 
+tags:
+  - introduction
+  - workout
+
+standards:
+  js.flow-control: 20
+  js.write-expressions: 10
+  js.data-types-structures: 10
+
 ---
 ## Content
 

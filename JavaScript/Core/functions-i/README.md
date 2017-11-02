@@ -6,7 +6,7 @@ description: Basics of functions.
 
 section: 0
 
-parent: flow-control
+parent: arrays-and-objects
 
 insights:
   - declaring-functions

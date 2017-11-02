@@ -9,6 +9,16 @@ type: normal
 
 inAlgoPool: false
 
+tags:
+  - introduction
+  - workout
+
+standards:
+  js.evaluate-expressions: 10
+  js.write-expressions: 10
+  js.data-types-structures: 20
+  js.identify-syntax: 10
+
 category: must-know
 
 ---
@@ -20,7 +30,7 @@ var company = "Enki";
 var company = 'Enki';
 ```
 
-If you have longer text you can wrap multiple lines by using the + operator:
+If you have longer text you can combine multiple strings by using the + operator:
 
 ```
 var longerText = "abc" +
@@ -28,7 +38,7 @@ var longerText = "abc" +
 		"ghi";
 ```
 
-You can also use the backslash character to continue writing text on multiple lines (make sure nothing is after the backslash). 
+You can also use the backslash character to "escape" the line feed, to write on multiple lines (make sure nothing is after the backslash except the carriage return).
 
 ```
 var longerText = "abc\

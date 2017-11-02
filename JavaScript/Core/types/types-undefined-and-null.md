@@ -11,6 +11,14 @@ inAlgoPool: false
 
 category: must-know
 
+tags:
+  - introduction
+  - workout
+
+standards:
+  js.evaluate-expressions: 10
+  js.identify-syntax: 10
+
 ---
 ## Content
 
@@ -53,7 +61,7 @@ Not initializing a variable sets its value to ???.
 
 *undefined
 *null
-*the default one
+*empty string
 
 ---
 ## Revision

@@ -9,8 +9,9 @@ type: normal
 
 category: must-know
 
-standard: 
+standard:
   js.evaluate-expressions: 20
+  js.identify-syntax: 5
 
 links:
 

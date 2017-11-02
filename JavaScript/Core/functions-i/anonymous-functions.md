@@ -11,6 +11,14 @@ type: normal
 
 category: must-know
 
+tags:
+  - introduction
+  - workout
+
+standards:
+  js.flow-control: 20
+  js.write-expressions: 10
+
 links:
 
   - >-

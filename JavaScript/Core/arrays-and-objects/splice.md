@@ -11,6 +11,14 @@ inAlgoPool: false
 
 category: must-know
 
+tags:
+  - introduction
+  - workout
+
+standards:
+  js.write-expressions: 10
+  js.data-types-structures: 20
+
 links:
 
   - >-
@@ -19,25 +27,25 @@ links:
 ---
 ## Content
 
-Splice is a very useful array function that allows you to add and remove items to an array. 
+Splice is a very useful array function that allows you to add and remove items to an array.
 
 It accepts 3 arguments with the 3rd being optional:
 
 - *Start* is the 0 based index of where to start manipulating the array
 - *Delete* is how many items to remove at the *Start* position (can be 0)
-- *Array of items to add* (optional) 
+- *Array of items to add* (optional)
 
 We can use splice to add and remove items anywhere in the array.
 
 For example to remove the 3rd element:
 
 ```
-myArray.splice(2, 1); 
+myArray.splice(2, 1);
 ```
 Or we could remove the 1st element:
 ```
-//remove 1st element and insert new 
-myArray.splice(0, 1, 4); 
+//remove 1st element and insert new
+myArray.splice(0, 1, 4);
 
 ```
 

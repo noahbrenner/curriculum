@@ -11,6 +11,13 @@ inAlgoPool: false
 
 category: must-know
 
+tags:
+  - introduction
+  - workout
+
+standards:
+  js.flow-control: 20
+
 links:
 
   - >-
@@ -19,7 +26,7 @@ links:
 ---
 ## Content
 
-Some operations in our programs can potentially fail due to no fault of the developer. 
+Some operations in our programs can potentially fail due to no fault of the developer.
 
 For example you could attempt to retrieve data from a remote server that is not currently available or attempt to read from a file that has been deleted.
 
@@ -67,7 +74,7 @@ function BadException(message) {
   this.message = message;
 }
 
-throw new 
+throw new
 BadException("something bad");
 ```
 

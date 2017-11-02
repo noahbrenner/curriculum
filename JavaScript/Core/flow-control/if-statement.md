@@ -11,6 +11,14 @@ inAlgoPool: false
 
 category: must-know
 
+tags:
+  - introduction
+  - workout
+
+standards:
+  js.flow-control: 20
+  js.write-expressions: 10
+
 ---
 ## Content
 
@@ -47,7 +55,7 @@ Sometimes code can be more readable using the switch statement although some dev
 
 ```
 switch (customerType){
-   case: "normal" : 
+   case: "normal" :
          ...
          break;
    case: "vip":
