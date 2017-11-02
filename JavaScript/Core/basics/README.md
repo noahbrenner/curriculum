@@ -12,3 +12,7 @@ insights:
   - javascript-syntax
   - javascript-variables
   - strict-mode
+  - equality
+  - truthy-falsy
+  - truthy-falsy-gotchas
+  - the-difference-between-null-undefined-and-nan
