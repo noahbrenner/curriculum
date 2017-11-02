@@ -11,8 +11,11 @@ inAlgoPool: false
 
 category: must-know
 
-standard: 
+standard:
   js.javascript-syntax: 10
+
+tags:
+  - introduction
 
 ---
 ## Content
@@ -29,12 +32,12 @@ console.log("hello");
 </script>
 ```
 
-Another, on html elements directly: 
+Another, on html elements directly:
 ```
 <input
-type="button" 
-value="test" 
-onclick="alert('hello');" 
+type="button"
+value="test"
+onclick="alert('hello');"
 />
 ```
 
@@ -57,7 +60,7 @@ This script can then be referenced with the src attribute of the script tag:
 We can even reference scripts hosted on another server – it's common to do this when working with third party libraries:
 
 ```
-<script 
+<script
 src="http://www.enki.com/hello.js" />
 ```
 

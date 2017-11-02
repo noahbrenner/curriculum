@@ -11,6 +11,12 @@ type: normal
 
 category: hack
 
+standards:
+  - js.standard-library: 20
+
+tags:
+  - workout
+
 links:
 
   - '[davidwalsh.name](https://davidwalsh.name/merge-arrays-javascript){website}'
@@ -18,10 +24,10 @@ links:
 ---
 ## Content
 
-`concat` is not always the best approach to merging arrays as it generates a new array. 
+`concat` is not always the best approach to merging arrays as it generates a new array.
 
 
-Since `var`s are passed by reference, `concat` may mess up a reference. 
+Since `var`s are passed by reference, `concat` may mess up a reference.
 
 Instead:
 ```javascript
@@ -36,7 +42,7 @@ Array.prototype.push.apply(array1, array2);
 ```
 
 ---
-## Revision
+## Practice
 
 Suppose:
 ```javascript

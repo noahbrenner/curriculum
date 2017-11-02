@@ -11,6 +11,12 @@ inAlgoPool: false
 
 category: must-know
 
+standards:
+  js.standard-library: 5
+
+tags:
+  - introduction
+
 ---
 ## Content
 

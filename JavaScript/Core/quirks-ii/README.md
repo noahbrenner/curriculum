@@ -1,8 +1,8 @@
-name: Quirks II
+name: Type corner cases
 
 type: insights-list
 
-description: Advice and recipes for commonly encountered confusions.
+description: A collection of common corner cases with JavaScript types.
 
 section: 1
 

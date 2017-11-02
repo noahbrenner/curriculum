@@ -9,7 +9,6 @@ section: 2
 parent: functions-ii
 
 insights:
-  - anonymous-functions
   - hoisting
   - bind
   - method-chaining

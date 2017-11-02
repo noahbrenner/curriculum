@@ -1,4 +1,4 @@
-# Setting the length of an array 
+# Setting the length of an array
 author: pawel
 
 levels:
@@ -13,9 +13,15 @@ type: normal
 
 category: hack
 
+standards:
+  js.standard-library: 10
+  js.evaluate-expressions: 10
+
 tags:
 
-  - ''
+  - introduction
+  - workout
+  - deep
 
 ---
 ## Content
@@ -25,7 +31,7 @@ Given the array:
 ```
 var a = ["one", "two", "three"];
 ```
-You can manually set the length of the array to truncate or extend it. To truncate: 
+You can manually set the length of the array to truncate or extend it. To truncate:
 ```
 a.length = 2;
 // a = ["one", "two"]
@@ -35,7 +41,7 @@ a.length = 2;
 Now, to extend the truncated array returned from the above:
 ```
 a.length = 4;
-// a = ["one", "two", undefined, 
+// a = ["one", "two", undefined,
 //               undefined]
 ```
 Finally, to truncate to zero:
@@ -46,6 +52,8 @@ a.length = 0;
 
 ```
 
+This is not considered a best practice.
+
 ---
 ## Practice
 
@@ -55,15 +63,17 @@ var arr = [1,2,3];
 arr.??? = 2; // arr = [1,2]
 arr.length = 4; //arr = ???
 ```
-*length
-*[1,2,undefined,undefined]
-*size
-*[1,2,undefined,undefined,undefined]
+
+* length
+* [1,2,undefined,undefined]
+* size
+* [1,2,undefined,undefined,undefined]
 
 ---
 ## Revision
 
 Complete the following snippet:
+
 ```javascript
 var names = ["John","Mary","Tom"];
 names.length = 4;
@@ -71,6 +81,7 @@ names.length = 4;
 names.length = 0;
 // names = ???
 ```
+
 *["John","Mary","Tom", undefined]
 *[ ]
 *[undefined,undefined,undefined, undefined]

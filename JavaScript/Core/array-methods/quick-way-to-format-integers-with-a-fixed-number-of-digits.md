@@ -9,6 +9,14 @@ type: normal
 
 category: tip
 
+standards:
+  - js.standard-library: 20
+  - js.data-types-structures: 20
+
+tags:
+  - workout
+  - deep
+
 links:
 
   - '[stackoverflow](http://stackoverflow.com/questions/8043026){discussion}'
@@ -45,18 +53,18 @@ Outputs ??? , while
 
 outputs ??? .
 
-*412
-*throws an error
-*10000
-*004
+* 412
+* throws an error
+* 10000
+* 004
 
 ---
 ## Revision
 
-`console.log(("123").slice(-4));` 
+`console.log(("123").slice(-4));`
 
  outputs ???
 
-*123
-*0123
-*0001
+* 123
+* 0123
+* 0001

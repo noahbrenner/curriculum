@@ -13,9 +13,15 @@ type: normal
 
 category: best practice
 
-tags:
+standards:
+  - js.standard-library: 20
+  - js.es6-extensions-standard-library: 20
+  - js.es6-functions: 10
 
-  - functional-programming arrays
+tags:
+  - workout
+  - functional-programming
+  - arrays
 
 ---
 ## Content
@@ -31,23 +37,23 @@ for(let person of persons) {
   }
 }
 ```
-However, using the `Array::filter` method is generally more concise and readable:
+However, using the `Array.filter()` method is generally more concise and readable:
 
 ```
 let persons = [...];
 let activated = persons.filter(
-  person => person.isActived
+  person => person.isActive
 )
 ```
 
-`.filter` can be applied to any array. It takes a predicate which should return a boolean, depending on whether or not the item should be preserved in the array.
+`.filter` can be applied to any array. It takes a function which should return a boolean, depending on whether or not the item should be preserved in the array.
 
 ```
 [1,2,3,4].filter(x => x % 2);
 // => [2,4]
 
 
-  
+
 ```
 
 ---

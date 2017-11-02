@@ -11,12 +11,15 @@ type: normal
 
 category: pattern
 
-standard:
-  js.write-expressions: 10
-
 tags:
 
   - short-circuiting
+  - introduction
+  - workout
+
+standards:
+  js.write-expressions: 20
+  js.evaluate-expressions: 10
 
 links:
 
@@ -48,16 +51,18 @@ function documentTitle(theTitle) {
 ---
 ## Practice
 
-`Short circuit` the following code:
+`Short circuit` the following return value:
+
 ```javascript
 function shortCir(name){
   return ??? ??? 'John Doe';
 }
 ```
-*name
-*||
-*&&
-*==
+
+* name
+* ||
+* &&
+* ==
 
 ---
 ## Revision
@@ -69,7 +74,8 @@ function shortCir(name){
   return ??? ??? 'John Doe';
 }
 ```
-*name
-*||
-*&&
-*==
+
+* name
+* ||
+* &&
+* ==

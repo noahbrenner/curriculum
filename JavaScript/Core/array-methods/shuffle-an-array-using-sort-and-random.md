@@ -9,9 +9,17 @@ type: normal
 
 category: hack
 
+standards:
+  js.standard-library: 20
+  js.evaluate-expressions: 20
+
 links:
 
   - '[stackoverflow](http://stackoverflow.com/questions/2450954){discussion}'
+
+standards:
+  js.standard-library: 20
+  js.data-types-structures: 20
 
 ---
 ## Content
@@ -23,7 +31,7 @@ var array = [1,2,3,4,5,6,7,8,9];
 ```
 Sort randomly with:
 ```
-array.sort(function(){ 
+array.sort(function(){
   return Math.random() - 0.5
 });
 ```
@@ -38,13 +46,17 @@ array = [4,3,1,2,9,5,6,8,7]
 ---
 ## Revision
 
-The following code will ??? 
+What method, when used here, will shuffle
+the array?
+
 ```javascript
 var arr = [1,2,3,4,5,6,7];
 arr.sort(function(){
-  return Math.random() - 0.5;
+  return Math.???() - 0.5;
 });
 ```
-*shuffle the array
-*sort the array decreasingly
-*do nothing to the array
+
+* `random`
+* `round`
+* `PI`
+* `shuffle`

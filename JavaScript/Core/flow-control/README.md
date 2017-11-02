@@ -2,11 +2,11 @@ name: Flow Control
 
 type: insights-list
 
-description: Branch, stop and loop your programs with these control structures. 
+description: Branch, stop and loop your programs with these control structures.
 
 section: 0
 
-parent: taking-precedence-game
+parent: basics
 
 insights:
   - if-statement

@@ -6,7 +6,7 @@ description: Precedence decides the order in which operators are evaluated. High
 
 section: 0
 
-parent: arrays-and-equality
+parent: types
 
 insights:
   - taking-precedence
