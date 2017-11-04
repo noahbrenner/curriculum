@@ -11,8 +11,15 @@ type: normal
 
 category: caveats
 
-standard: 
+standards:
   js.evaluate-expressions: 10
+  js.write-expressions: 10
+  js.data-types-structures: 10
+
+tags:
+  - introduction
+  - workout
+  - deep
 
 ---
 ## Content
@@ -28,7 +35,7 @@ console.log(.1 + .2);
 ```
 will print `0.30000000000000004` instead of `0.3`. This happens because `0.1` is an *`inaccuracy`* - it can not be represented in binary (just the same way we can't represent `1/3` in decimal).
 
-This proves a nuisance especially at comparisons: 
+This proves a nuisance especially at comparisons:
 ```javascript
 console.log((.1 + .2) == .3); //false
 ```

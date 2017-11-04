@@ -1,14 +1,14 @@
-name: Tips I
+name: Objects and Arrays 2
 
 type: insights-list
 
-description: Explore tips, tricks and features of JavaScript.
+description: Tips about Arrays and Objects in JavaScript
 
 section: 1
 
 insights:
   - arrays-can-be-used-as-stack
   - apply-map-function-to-array-items
-  - base-conversion
-  - parsing-numbers-and-ieee-754
+  - be-careful-when-using-typeof
   - deleting-properties
+  - keywords-in-hash-keys

@@ -13,8 +13,14 @@ type: normal
 
 category: feature
 
-standard: 
+standard:
   js.write-expressions: 10
+  js.control-flow: 10
+  js.evaluate-expressions: 10
+
+tags:
+  - introduction
+  - workout
 
 links:
 
@@ -24,11 +30,11 @@ links:
 ---
 ## Content
 
-There are certain scenarios where scripts are shared between different parts of a website. This can result in calling functions that *do not exist*. 
+There are certain scenarios where scripts are shared between different parts of a website. This can result in calling functions that *do not exist*.
 
 Check if a `function` exists beforehand:
 ```javascript
-if (typeof myFunction === "function") { 
+if (typeof myFunction === "function") {
     // safe to use the function
     myFunction();
 }

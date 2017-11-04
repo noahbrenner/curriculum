@@ -13,9 +13,17 @@ type: normal
 
 category: must-know
 
-tags:
+standards:
+  js.evaluate-expressions: 10
+  js.write-expressions: 10
+  js.data-types-structures: 10
+  js.javascript-syntax: 10
 
-  - functional-programming arrays
+tags:
+  - introduction
+  - workout
+  - functional-programming
+  - arrays
 
 ---
 ## Content

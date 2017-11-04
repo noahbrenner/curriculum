@@ -2,15 +2,15 @@ name: Quirks I
 
 type: insights-list
 
-description: Advice and recipes for commonly encountered confusions.
+description: Corner cases related to functions and scope
 
 section: 1
 
 parent: tips-i
 
 insights:
-  - avoid-using-with
-  - be-careful-when-using-typeof
-  - catch-is-block-scoped
+  - functions-return-undefined-by-default
+  - extra-function-arguments-are-undefined-by-default
   - check-if-a-function-exists
+  - closures
   - changing-a-functions-context-with-fn-call-object

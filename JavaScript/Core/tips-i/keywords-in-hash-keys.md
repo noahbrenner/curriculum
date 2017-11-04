@@ -11,6 +11,14 @@ category: best practice
 
 notes: 'Same issue, not sure if it''s not really really basic.'
 
+standards:
+  js.data-types-structures: 10
+  js.write-expressions: 10
+
+types:
+  - introduction
+  - workout
+
 links:
 
   - "[bonsaiden.github.io](http://bonsaiden.github.io/JavaScript-Garden/){website}"

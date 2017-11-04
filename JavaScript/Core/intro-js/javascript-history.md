@@ -14,6 +14,10 @@ category: must-know
 standards:
   js.standard-library: 5
 
+tags:
+  - obscura
+  - introduction
+
 links:
 
   - >-

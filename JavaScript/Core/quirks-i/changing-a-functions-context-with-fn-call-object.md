@@ -11,8 +11,14 @@ type: normal
 
 category: must-know
 
-standard: 
+standard:
   js.execution-context: 10
+  js.control-flow: 10
+  js.evaluate-expressions: 10
+
+tags:
+  - workout
+  - deep
 
 links:
 
@@ -28,7 +34,7 @@ links:
 
 `fn.call()` allows you to call a function and provide an alternative value for the functions *this* context.
 
-The first argument `fn.call()` accepts is the alternative *this* context and any following arguments are passed as parameters. 
+The first argument `fn.call()` accepts is the alternative *this* context and any following arguments are passed as parameters.
 
 The code below defines a *discount* of *10* that will be retrieved within *getDiscount* via a call to `this.discount`:
 
@@ -43,7 +49,7 @@ var discountCalc= {
 discountCalc.getDiscount(1); //11
 ```
 
-Imagine we want to supply a bigger discount. 
+Imagine we want to supply a bigger discount.
 
 We can use `fn.call` to override discountCalculators *discount* by supplying an alternative *this* context:
 ```

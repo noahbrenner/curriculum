@@ -7,6 +7,14 @@ levels:
 
   - beginner
 
+tags:
+  - introduction
+  - workout
+
+standards:
+  js.write-expressions: 10
+  js.data-types-structures: 10
+
 type: normal
 
 category: how to
@@ -14,7 +22,7 @@ category: how to
 ---
 ## Content
 
-Base conversion for `int` data types is easily achievable with the help of `toString` and `parseInt` functions. 
+Base conversion for `int` data types is easily achievable with the help of `toString` and `parseInt` functions.
 
 Convert decimal to hexadecimal:
 ```javascript

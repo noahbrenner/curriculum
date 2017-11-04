@@ -13,8 +13,14 @@ type: normal
 
 category: caveats
 
-standard: 
+standards:
   js.evaluate-expressions: 10
+  js.write-expressions: 10
+  js.data-types-structures: 10
+
+tags:
+  - introduction
+  - workout
 
 ---
 ## Content

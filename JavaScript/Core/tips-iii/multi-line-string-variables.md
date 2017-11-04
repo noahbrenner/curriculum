@@ -13,6 +13,15 @@ type: normal
 
 category: how to
 
+tags:
+  - introduction
+  - workout
+
+standards:
+  js.javascript-syntax: 10
+  js.write-expressions: 10
+  js.evaluate-expressions: 10
+
 links:
 
   - >-
@@ -28,7 +37,7 @@ var stringOfHTML = "<div>
   This is a bad example.
 </div>";
 ```
-However, this will cause an error. 
+However, this will cause an error.
 
 
 To preserve both readability and functionality, use string concatenation:
@@ -42,7 +51,7 @@ var stringOfHTML = '<div>' +
 Or, ES2015 makes it possible to use backticks, in this form:
 
 ```
-var stringOfHTML = `This is a 
+var stringOfHTML = `This is a
 multi-line
 string in ES6!`;
 ```

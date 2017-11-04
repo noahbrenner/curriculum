@@ -9,8 +9,13 @@ type: normal
 
 category: caveats
 
-standard: 
+standards:
   js.evaluate-expressions: 10
+  js.control-flow: 10
+
+tags:
+  - workout
+  - deep
 
 parent: no-block-scope
 

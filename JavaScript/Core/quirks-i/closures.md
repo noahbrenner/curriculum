@@ -13,6 +13,15 @@ type: normal
 
 category: must-know
 
+standards:
+  js.control-flow: 10
+  js.execution-context: 10
+  js.evaluate-expressions: 10
+
+tags:
+  - workout
+  - deep
+
 links:
 
   - >-
@@ -21,9 +30,9 @@ links:
 ---
 ## Content
 
-A **closure** is created when you access a  variable outside of the immediate scope. 
+A **closure** is created when you access a  variable outside of the immediate scope.
 
-For example, if you define a function **nested** inside another function, a closure is created. 
+For example, if you define a function **nested** inside another function, a closure is created.
 
 You can return the **nested function** `bar()` and maintain access to the local variables, arguments, and inner function declarations of the **outer function** `foo()`:
 

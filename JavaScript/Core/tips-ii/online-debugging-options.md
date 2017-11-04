@@ -11,9 +11,22 @@ inAlgoPool: false
 
 category: must-know
 
+tags:
+  - introduction
+  - obscura
+
+standards:
+  js.javascript-syntax: 10
+
 links:
 
-  - '[jsbin.com](https://jsbin.com/){website}'
+  - '[jsbin.com](https://jsbin.com/)'
+
+  - '[JavaScript Visualizer](http://pythontutor.com/javascript.html)'
+
+  - '[codepen.io](http://codepen.io/)'
+
+  - '[repl.it](http://repl.it/)'
 
 ---
 ## Content
@@ -28,8 +41,10 @@ There are many options available but some of the better known sites are:
 - jsbin.com
 - js.do
 - jsfiddle.net
+- pythontutor.com
+- repl.it
 
-As well as running JavaScript these sites often allow you to reference common external libraries such as jQuery, Angular and React which saves you from downloading and setting them up. 
+As well as running JavaScript these sites often allow you to reference common external libraries such as jQuery, Angular and React which saves you from downloading and setting them up.
 
 Online debugging options are also great for **sharing** code with others.
 

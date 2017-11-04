@@ -11,6 +11,15 @@ inAlgoPool: false
 
 category: must-know
 
+standards:
+  js.evaluate-expressions: 10
+  js.write-expressions: 10
+  js.data-types-structures: 10
+
+tags:
+  - introduction
+  - workout
+
 links:
 
   - >-
@@ -26,7 +35,7 @@ If you want to convert string input to a number type you can use the *parseInt* 
 
 *parseInt* accepts 2 arguments:
 - Value to be converted
-- Radix or base of the number system to use 
+- Radix or base of the number system to use
 
 The Radix or base defaults to 10 on later browsers but it is probably still best to specify as this is not the case on older browsers.
 

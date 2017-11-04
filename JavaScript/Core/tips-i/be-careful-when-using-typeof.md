@@ -9,7 +9,7 @@ type: normal
 
 category: tip
 
-standard: 
+standards: 
   js.evaluate-expressions: 10
 
 tags:
@@ -25,7 +25,7 @@ links:
 ---
 ## Content
 
-`typeof` returns "object" for all objects, and nothing more specific. 
+`typeof` returns "object" for all objects, and nothing more specific.
 
 Examples:
 

@@ -13,12 +13,20 @@ links:
 
   - '[stackoverflow](http://stackoverflow.com/questions/1590247){discussion}'
 
+standards:
+  js.data-types-structures: 10
+  cs.implement-linear-collection-data-structures: 10
+
+tags:
+  - introduction
+  - workout
+
 ---
 ## Content
 
 Using the following array:
 ```
-var stack = []; 
+var stack = [];
 ```
 We can `push` items to the stack:
 ```

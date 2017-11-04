@@ -13,8 +13,15 @@ type: normal
 
 category: hack
 
-tags:
+standards:
+  js.evaluate-expressions: 10
+  js.write-expressions: 10
+  js.data-types-structures: 10
+  js.javascript-syntax: 10
 
+tags:
+  - workout
+  - deep
   - double-tilde
 
 ---

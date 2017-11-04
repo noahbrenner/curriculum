@@ -1,16 +1,15 @@
-name: Tips II
+name: Robustness in JavaScript
 
 type: insights-list
 
-description: How to JavaScript.
+description: Debugging, errors, and best practices to make your JavaScript more robust
 
 section: 1
 
 parent: quirks-i
 
 insights:
-  - using-the-double-tilde
   - detect-an-error-type
-  - keywords-in-hash-keys
+  - avoid-using-with
+  - catch-is-block-scoped
   - online-debugging-options
-  - closures

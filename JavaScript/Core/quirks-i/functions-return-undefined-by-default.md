@@ -13,9 +13,14 @@ type: normal
 
 category: feature
 
-tags:
+standards:
+  js.control-flow: 10
+  js.write-expressions: 10
+  js.evaluate-expressions: 10
 
-  - ''
+tags:
+  - introduction
+  - workout
 
 notes: ''
 

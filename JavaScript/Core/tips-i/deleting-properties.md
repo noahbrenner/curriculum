@@ -11,6 +11,13 @@ category: how to
 
 notes: Hope it's not too basics?
 
+standards:
+  js.data-types-structures: 10
+
+types:
+  - introduction
+  - workout
+
 links:
 
   - "[stackoverflow.com](http://stackoverflow.com/questions/208105/how-to-remove-a-property-from-a-javascript-object){website}"
@@ -18,7 +25,7 @@ links:
 ---
 ## Content
 
-Setting the property to `null` or `undefined` only removes the value associated with given property. It does not remove the key. 
+Setting the property to `null` or `undefined` only removes the value associated with given property. It does not remove the key.
 
 ```
 var obj = { one: 1 }

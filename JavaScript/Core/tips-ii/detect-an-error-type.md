@@ -9,6 +9,15 @@ type: normal
 
 category: must-know
 
+standards:
+  js.evaluate-expressions: 10
+  js.write-expressions: 10
+  js.control-flow: 10
+
+tags:
+  - workout
+  - deep
+
 links:
 
   - "[davidwalsh.name](https://davidwalsh.name/detect-error-type-javascript){website}"
