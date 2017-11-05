@@ -2,14 +2,15 @@ name: Functions III
 
 type: insights-list
 
-description: Particularities of functions, in depth.
+description: Function scope and patterns of using functions in JavaScript
 
 section: 2
 
-parent: functions-ii
+parent: objects-and-arrays-ii
 
 insights:
+  - function-constructor-vs-function-expression
   - hoisting
-  - bind
-  - method-chaining
+  - hoisting-applies-only-to-variable-declarations-not-initializations
+  - closures
   - iife-pattern

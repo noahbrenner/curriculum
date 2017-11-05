@@ -2,13 +2,13 @@ name: Functions II
 
 type: insights-list
 
-description: Particularities of functions, in depth.
+description: How functions work
 
-section: 2
+section: 1
 
 insights:
-  - function-constructor-vs-function-expression
+  - functions-return-undefined-by-default
+  - extra-function-arguments-are-undefined-by-default
+  - check-if-a-function-exists
   - functions-can-be-declared-after-use
-  - function-call-method
-  - difference-between-call-and-apply-methods
-  - explicit-setting-of-this-using-call-and-apply-methods
+  - setting-default-values-with-short-circuiting

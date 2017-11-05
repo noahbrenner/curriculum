@@ -1,10 +1,12 @@
-name: Objects and Arrays 2
+name: Objects and Arrays II
 
 type: insights-list
 
 description: Tips about Arrays and Objects in JavaScript
 
 section: 1
+
+parent: numbers
 
 insights:
   - arrays-can-be-used-as-stack

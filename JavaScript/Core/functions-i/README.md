@@ -6,7 +6,7 @@ description: Basics of functions.
 
 section: 0
 
-parent: arrays-and-objects
+parent: objects-and-arrays
 
 insights:
   - declaring-functions

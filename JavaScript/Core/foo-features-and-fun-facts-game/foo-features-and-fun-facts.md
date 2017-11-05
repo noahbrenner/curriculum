@@ -1,4 +1,4 @@
-# Foo, features and fun facts
+# What will this evaluate to?
 author: jordanfish
 
 levels:
@@ -11,6 +11,10 @@ levels:
 type: fillTheGap
 
 category: tip
+
+standards:
+  js.evaluate-expressions: 110
+  js.data-types-structures: 110
 
 notes: 3 more questions? curr up to 11
 

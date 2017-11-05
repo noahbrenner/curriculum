@@ -6,7 +6,7 @@ description: Your goal is to determine what the console will print out for each 
 
 section: 0
 
-parent: types
+parent: functions-i
 
 insights:
   - infinity-game

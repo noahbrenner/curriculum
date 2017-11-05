@@ -6,10 +6,12 @@ description: Debugging, errors, and best practices to make your JavaScript more 
 
 section: 1
 
-parent: quirks-i
+parent: objects-and-arrays-ii
 
 insights:
   - detect-an-error-type
   - avoid-using-with
   - catch-is-block-scoped
-  - online-debugging-options
+  - no-block-scope
+  - scope-and-strict-mode
+  - using-eval

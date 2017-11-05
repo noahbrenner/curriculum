@@ -1,4 +1,4 @@
-name: Tips III
+name: String and Operations tips
 
 type: insights-list
 
@@ -6,7 +6,7 @@ description: Type tips: Strings and Numbers
 
 section: 1
 
-parent: quirks-ii
+parent: objects-and-arrays-iii
 
 insights:
   - double-and-single-quotes

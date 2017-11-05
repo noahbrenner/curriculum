@@ -6,7 +6,7 @@ description: Types of JavaScript.
 
 section: 0
 
-parent: basics
+parent: flow-control
 
 insights:
   - types-introduction

@@ -9,8 +9,7 @@ section: 2
 parent: recipes-i
 
 insights:
-  - javascript-compilation
-  - context-in-javascript
-  - meaning-of-polyfill
+  - online-debugging-options
   - debugging
-  - scope-and-strict-mode
+  - meaning-of-polyfill
+  - javascript-compilation

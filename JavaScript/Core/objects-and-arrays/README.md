@@ -6,7 +6,7 @@ description: Exploring the primitive data structures built in to JavaScript.
 
 section: 0
 
-parent: flow-control
+parent: types
 
 insights:
   - arrays

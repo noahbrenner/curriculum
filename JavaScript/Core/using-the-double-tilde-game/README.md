@@ -6,8 +6,7 @@ description: Your goal is to determine what the console will print out for each 
 
 section: 1
 
-parent: tips-ii
+parent: numbers
 
 insights:
   - using-the-double-tilde-game
- 
