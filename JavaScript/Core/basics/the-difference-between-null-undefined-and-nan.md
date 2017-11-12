@@ -15,6 +15,10 @@ standards:
   js.identify-common-design-patterns: 20
   js.identify-syntax: 10
 
+tags:
+  - introduction
+  - workout
+  
 ---
 ## Content
 

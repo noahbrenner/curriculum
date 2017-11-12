@@ -1,12 +1,12 @@
-name: JavaScript in Depth I
+name: Debugging and Tools
 
 type: insights-list
 
-description: Get familiar with complex topics of JavaScript.
+description: Get more familiar with the toolset around JavaScript.
 
 section: 2
 
-parent: recipes-i
+parent: formatting-patterns
 
 insights:
   - online-debugging-options

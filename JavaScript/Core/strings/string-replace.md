@@ -13,6 +13,17 @@ type: normal
 
 category: caveats
 
+standards:
+  js.standard-library: 10
+  js.javascript-syntax: 10
+  js.evaluate-expressions: 10
+  js.data-types-structures: 10
+
+tags:
+  - introduction
+  - workout
+  - deep
+
 links:
 
   - >-
@@ -21,10 +32,10 @@ links:
 ---
 ## Content
 
-The `String.replace` method only changes the first occurrence of a substring, not all possible matches: 
+The `String.replace` method only changes the first occurrence of a substring, not all possible matches:
 ```
 var testString = "An example string for us";
-testString = testString.replace(/ /,"%20"); 
+testString = testString.replace(/ /,"%20");
 // testString = "An%20example string for us"
 ```
 To replace all occurrences, you need to set the global modifier:
@@ -43,16 +54,17 @@ var s = 'x+y+z=w';
 s=s.replace(???,'%2B');
 console.log(s); // x%2By%2Bz=w
 ```
-*`/\+/g`
-*`\\+/g`
-*`\+/g`
-*`/\+/`
+
+* `/\+/g`
+* `\\+/g`
+* `\+/g`
+* `/\+/`
 
 ---
 ## Revision
 
 ??? is used to replace one or more occurrences of a substring with another string.
 
-*String.replace()
-*String.change()
-*String.delete()
+* String.replace()
+* String.change()
+* String.delete()

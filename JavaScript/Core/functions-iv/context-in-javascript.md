@@ -13,6 +13,17 @@ type: normal
 
 category: must-know
 
+standards:
+  js.execution-context: 10
+  js.standard-library: 10
+  js.data-types-structures: 10
+
+tags:
+  - introduction
+  - workout
+  - deep
+  - execution context
+
 links:
 
   - >-
@@ -26,7 +37,7 @@ links:
 
 In JavaScript `this` represents the **context** of a function. The code currently executing belongs to the object that `this` references.
 
-If you call an **unbound** function, `this` will default to the **global context** or `Window` object in the browser. 
+If you call an **unbound** function, `this` will default to the **global context** or `Window` object in the browser.
 
 If you execute a function in **strict mode**, the context will default to `undefined`.
 

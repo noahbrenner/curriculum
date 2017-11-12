@@ -14,9 +14,12 @@ category: must-know
 tags:
   - introduction
   - obscura
+  - workout
 
 standards:
   js.javascript-syntax: 10
+  js.browser-tooling: 10
+
 
 links:
 

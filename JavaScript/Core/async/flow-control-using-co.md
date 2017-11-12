@@ -9,6 +9,18 @@ type: normal
 
 category: feature
 
+tags:
+
+  - library
+  - workout
+  - deep
+  - obscura
+
+standards:
+  js.async: 30
+  js.identify-syntax: 30
+  js.flow-control: 30
+
 links:
 
   - '[github.com](https://github.com/tj/co){website}'
@@ -22,17 +34,17 @@ An example of *co*:
 
 ```
 co(function *(){
-  // yield any promise 
+  // yield any promise
   var result = yield Promise.resolve(true);
 }).catch(onerror);
- 
+
 co(function *(){
-  // resolve multiple promises in parallel 
+  // resolve multiple promises in parallel
   var a = Promise.resolve(1);
   var b = Promise.resolve(2);
   var all = yield [a, b];
   console.log(all);
-  // => [1, 2] 
+  // => [1, 2]
 }).catch(onerror);
 ```
 `co()` can `yield` promises, 'thunks', arrays, objects, generators and generator functions.
@@ -44,7 +56,7 @@ _co_ version 4 returns a promise, similar to ES7 async/await, but with better pa
 ---
 ## Practice
 
-Complete the following JS code snippet where co is used to yield a promise: 
+Complete the following JS code snippet where co is used to yield a promise:
 
 ```javascript
 ???(function *() {

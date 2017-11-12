@@ -13,8 +13,8 @@ type: fillTheGap
 category: tip
 
 standards:
-  js.evaluate-expressions: 110
-  js.data-types-structures: 110
+  js.evaluate-expressions: 1100
+  js.data-types-structures: 1100
 
 notes: 3 more questions? curr up to 11
 

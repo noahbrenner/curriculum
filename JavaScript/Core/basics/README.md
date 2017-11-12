@@ -16,3 +16,6 @@ insights:
   - truthy-falsy
   - truthy-falsy-gotchas
   - the-difference-between-null-undefined-and-nan
+
+game:
+  - infinity-game

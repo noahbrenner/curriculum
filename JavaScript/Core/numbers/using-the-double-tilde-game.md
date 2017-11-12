@@ -13,6 +13,10 @@ type: fillTheGap
 
 category: tip
 
+standards:
+  js.write-expressions: 600
+  js.evaluate-expressions: 600
+
 ---
 ## Content
 

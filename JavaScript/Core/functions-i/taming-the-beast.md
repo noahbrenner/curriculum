@@ -13,6 +13,10 @@ type: evaluateThis
 
 category: tip
 
+stanards:
+  js.javascript-syntax: 1000
+  js.evaluate-expressions: 1000
+
 ---
 ## Content
 

@@ -11,12 +11,17 @@ type: normal
 
 category: feature
 
-standard:
+standards:
   js.write-expressions: 10
+  js.evaluate-expressions: 10
 
 tags:
 
-  - 'javascript, regex, regular expressions, regexp, test'
+  - regex
+  - regular expressions
+  - introduction
+  - deep
+  - workout
 
 links:
 
@@ -68,6 +73,6 @@ Matching a string with a RegEx is done by
 
 ???
 
-*regex.test(string);
-*regex.match(string);
-*regex.check(string);
+* regex.test(string);
+* regex.match(string);
+* regex.check(string);

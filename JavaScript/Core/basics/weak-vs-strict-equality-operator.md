@@ -13,6 +13,10 @@ standard:
   js.evaluate-expressions: 20
   js.identify-syntax: 5
 
+tags:
+  - introduction
+  - workout
+
 links:
 
   - "[developer.mozilla.org](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Comparison_Operators){website}"

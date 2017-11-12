@@ -16,6 +16,7 @@ standards:
 tags:
   - workout
   - deep
+  - scope
 
 parent: no-block-scope
 

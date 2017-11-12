@@ -11,14 +11,14 @@ type: normal
 
 category: how to
 
-standard: 
+standard:
   js.async: 10
 
 tags:
-
-  - timed-intervals
-
-  - fundamental
+  - introduction
+  - deep
+  - workout
+  - async
 
 ---
 ## Content
@@ -29,7 +29,7 @@ To perform functions at regular intervals using `setInterval`:
 function myFunction() {
  //doSomething();
 }
-var loop = 
+var loop =
 window.setInterval(myFunction, 1000);
 
 ```

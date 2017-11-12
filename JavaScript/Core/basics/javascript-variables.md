@@ -14,6 +14,10 @@ category: must-know
 standards:
   js.identify-syntax: 10
 
+  tags:
+    - introduction
+    - workout
+
 ---
 ## Content
 

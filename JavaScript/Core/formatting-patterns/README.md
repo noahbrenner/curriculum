@@ -2,7 +2,7 @@ name: Formatting Patterns
 
 type: insights-list
 
-description: Recipes for common formatting patterns
+description: Recipes for common string and number formatting patterns
 
 section: 2
 

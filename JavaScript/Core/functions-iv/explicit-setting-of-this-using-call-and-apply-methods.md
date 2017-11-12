@@ -13,6 +13,17 @@ category: tip
 
 notes: ''
 
+standards:
+  js.execution-context: 10
+  js.standard-library: 10
+  js.data-types-structures: 10
+
+tags:
+  - introduction
+  - workout
+  - deep
+  - execution context
+
 links:
 
   - >-

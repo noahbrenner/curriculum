@@ -17,6 +17,10 @@ standards:
   js.write-expressions: 20
 
 
+tags:
+  - introduction
+  - workout
+
 notes: ''
 
 ---

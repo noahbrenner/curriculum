@@ -15,7 +15,17 @@ category: pattern
 
 tags:
 
-  - 'prototype, methods, class, object'
+  - prototype
+  - methods
+  - class
+  - object
+  - introduction
+  - deep
+
+standards:
+  js.prototype-class: 10
+  js.prototypes-inherit: 10
+
 
 ---
 ## Content
@@ -60,11 +70,11 @@ function Hobby(hobby){
 Hobby.???.??? = function(){
    console.log("I enjoy " + this.hobby);
 }
- 
+
 function MyHobby(hobby){
    this.hobby = hobby;
 }
-   
+
 ???.prototype = new Hobby();
 var student = new MyHobby("studying");
 student.sayHobby();

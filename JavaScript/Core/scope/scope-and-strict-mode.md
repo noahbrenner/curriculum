@@ -13,6 +13,15 @@ type: normal
 
 category: must-know
 
+standards:
+  js.execution-context: 10
+
+tags:
+  - deep
+  - introduction
+  - workout
+  - scope
+
 links:
 
   - '[john-dugan.com](https://john-dugan.com/hoisting-in-javascript/){website}'
@@ -31,7 +40,7 @@ function bar(foo){
 ```
 This occurs on **execution** of the code rather than in compilation.
 
-In **strict mode** this does not happen and would give a reference error of `undeclared`. 
+In **strict mode** this does not happen and would give a reference error of `undeclared`.
 
 `undeclared` means that there is no present declaration of the variable in any of the scopes.
 
@@ -52,13 +61,15 @@ function bar(foo){
 
 ???
 
-*`non-strict`
-*`strict`
+* `non-strict`
+* `strict`
 
 ---
 ## Revision
 
-Non-strict mode allows the automate creation of a variable in ??? scope, while *strict mode* would throw an error if the ??? variable is not declared.
-*global
-*local
-*strict
+Non-strict mode allows the creation of a variable in ??? scope, while *strict mode* would throw an error if the ??? variable is not declared explicitly.
+
+* global
+* local
+* strict
+* function

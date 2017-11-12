@@ -15,6 +15,11 @@ category: pattern
 
 standard:
   js.write-expressions: 10
+  js.data-types-structures: 10
+
+tags:
+  - deep
+  - obscura
 
 links:
 

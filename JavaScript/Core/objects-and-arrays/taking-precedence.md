@@ -13,6 +13,11 @@ type: fillTheGap
 
 category: tip
 
+standards:
+  js.javascript-syntax: 1000
+  js.evaluate-expressions: 4000
+  js.data-types-structures: 4000
+
 ---
 ## Content
 

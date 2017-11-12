@@ -9,13 +9,18 @@ type: normal
 
 category: how to
 
+standards:
+  js.async: 10
+  js.flow-control: 10
+
 tags:
 
   - promises
-
   - functional programming
-
   - async
+  - introduction
+  - workout
+  - deep
 
 ---
 ## Content
@@ -48,14 +53,14 @@ return Promise.reject(
 Create the following promise to represent an error:
 
 ```
-return Promise.???( 
-  new ???('Boo! :o') 
-) 
+return Promise.???(
+  new ???('Boo! :o')
+)
 ```
-*`reject` 
-*`Error` 
-*`error` 
-*`create` 
+*`reject`
+*`Error`
+*`error`
+*`create`
 *`exception`
 
 ---

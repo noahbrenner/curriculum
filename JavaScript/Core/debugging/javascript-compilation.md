@@ -13,6 +13,13 @@ type: normal
 
 category: feature
 
+standards:
+  js.browser-tooling: 10
+
+tags:
+  - introduction
+  - workout 
+
 ---
 ## Content
 

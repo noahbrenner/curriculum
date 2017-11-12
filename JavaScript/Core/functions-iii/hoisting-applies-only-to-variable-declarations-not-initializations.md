@@ -13,10 +13,17 @@ type: normal
 
 category: feature
 
+standards:
+  js.execution-context: 10
+  js.standard-library: 10
+  js.data-types-structures: 10
+
 tags:
-
+  - introduction
+  - workout
+  - deep
+  - execution context
   - hoisting
-
   - variables
 
 links:
@@ -33,7 +40,7 @@ x = 5;
 alert(x);
 var x;
 ```
-`5` will be alerted despite `var x` not being declared until after the alert. 
+`5` will be alerted despite `var x` not being declared until after the alert.
 
 However, variable initializations are not hoisted:
 ```

@@ -13,10 +13,21 @@ type: normal
 
 category: must-know
 
+standards:
+  js.execution-context: 10
+  js.standard-library: 10
+  js.data-types-structures: 10
+
+tags:
+  - introduction
+  - workout
+  - deep
+  - execution context
+
 ---
 ## Content
 
-The `call` method allows changing the `this` object of a function from the original context to the context of the new object specified by `thisObj`. 
+The `call` method allows changing the `this` object of a function from the original context to the context of the new object specified by `thisObj`.
 
 `currObj` is the object to be used as the current object.
 

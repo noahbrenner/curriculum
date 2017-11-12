@@ -11,7 +11,11 @@ levels:
 
 type: fillTheGap
 
-category: tip
+category: must-know
+
+standards:
+  js.evaluate-expressions: 1000
+  js.javascript-syntax: 1000
 
 ---
 ## Content

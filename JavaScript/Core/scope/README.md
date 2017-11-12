@@ -1,17 +1,19 @@
-name: Robustness in JavaScript
+name: Scope Tips
 
 type: insights-list
 
-description: Debugging, errors, and best practices to make your JavaScript more robust
+description: Tips to help you understand Scope in JavaScript
 
 section: 1
 
 parent: objects-and-arrays-ii
 
 insights:
-  - detect-an-error-type
   - avoid-using-with
   - catch-is-block-scoped
+  - detect-an-error-type
   - no-block-scope
   - scope-and-strict-mode
-  - using-eval
+
+game:
+  - think-you-know-javascript

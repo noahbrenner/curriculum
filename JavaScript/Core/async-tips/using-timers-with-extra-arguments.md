@@ -13,6 +13,15 @@ type: normal
 
 category: must-know
 
+standards:
+  js.async: 10
+  js.flow-control: 10
+
+tags:
+  - introduction
+  - workout
+  - deep
+
 links:
 
   - >-

@@ -14,3 +14,6 @@ insights:
   - types-undefined-and-null
   - types-boolean-and-number
   - types-string
+
+game:
+  - foo-features-and-fun-facts

@@ -17,6 +17,7 @@ standards:
 tags:
   - workout
   - deep
+  - errors
 
 links:
 

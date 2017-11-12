@@ -9,6 +9,18 @@ type: normal
 
 category: feature
 
+tags:
+
+  - library
+  - workout
+  - deep
+  - obscura
+
+standards:
+  js.async: 30
+  js.identify-syntax: 30
+  js.flow-control: 30
+
 links:
 
   - '[www.npmjs.com](https://www.npmjs.com/package/async-csp){website}'

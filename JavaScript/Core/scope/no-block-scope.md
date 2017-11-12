@@ -11,8 +11,16 @@ type: normal
 
 category: tip
 
+standards:
+  js.evaluate-expressions: 10
+  js.javascript-syntax: 10
+
 tags:
 
+  - scope
+  - deep
+  - introduction
+  - workout
   - scope
 
 links:
@@ -54,7 +62,7 @@ The only exception is the case of `catch` blocks, which also have their own scop
 ---
 ## Revision
 
-What's the output of the `alert()` method?
+What's the output of the `alert()` function?
 ```
 var a = 1;
 function bar() {

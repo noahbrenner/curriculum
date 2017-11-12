@@ -17,6 +17,10 @@ tags:
 
   - gamified
 
+standards:
+  js.write-expressions: 2500
+  js.evaluate-expressions: 2500
+
 ---
 ## Content
 

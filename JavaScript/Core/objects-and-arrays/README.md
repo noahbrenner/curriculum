@@ -13,3 +13,6 @@ insights:
   - splice
   - object-part-1
   - object-part-2
+
+game:
+  - taking-precedence

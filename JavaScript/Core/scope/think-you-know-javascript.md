@@ -1,4 +1,4 @@
-# Think you know Javascript?
+# Think you know JavaScript(Scope)?
 author: jordanfish
 
 levels:
@@ -14,6 +14,10 @@ type: fillTheGap
 category: tip
 
 notes: ''
+
+standards:
+  js.execution-context: 1000
+  js.evaluate-expressions: 1000
 
 ---
 ## Content

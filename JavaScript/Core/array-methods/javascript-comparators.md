@@ -13,6 +13,9 @@ type: tetris
 
 category: must-know
 
+standards:
+  js.evaluate-expressions: 2000
+
 ---
 ## Content
 

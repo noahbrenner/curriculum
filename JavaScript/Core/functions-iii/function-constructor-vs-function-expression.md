@@ -13,6 +13,18 @@ type: normal
 
 category: feature
 
+standards:
+  js.execution-context: 10
+  js.standard-library: 10
+  js.data-types-structures: 10
+
+tags:
+  - introduction
+  - workout
+  - deep
+  - functions
+  - execution-context
+
 links:
 
   - >-

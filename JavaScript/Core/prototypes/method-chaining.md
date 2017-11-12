@@ -15,7 +15,15 @@ category: pattern
 
 tags:
 
-  - 'method, function, chaining'
+  - method
+  - function
+  - introduction
+  - deep
+  - workout
+
+standards:
+  js.execution-context: 10
+  js.prototype-class: 10
 
 links:
 

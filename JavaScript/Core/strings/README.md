@@ -12,3 +12,5 @@ insights:
   - double-and-single-quotes
   - multi-line-string-variables
   - infix-operators-are-left-associative
+  - string-replace
+  - using-eval

@@ -12,6 +12,14 @@ category: feature
 tags:
 
   - library
+  - workout
+  - deep
+  - obscura
+
+standards:
+  js.async: 30
+  js.identify-syntax: 30
+  js.flow-control: 30
 
 links:
 
@@ -35,9 +43,9 @@ For example:
 ```
 var ch = csp.chan(); // new channel
 csp.takeAsync(ch, function(value) {
-   return console.log("Yay ", value); 
+   return console.log("Yay ", value);
 });
-csp.putAsync(ch, 100); 
+csp.putAsync(ch, 100);
 // puts 100 ... takes 100, "Yay 100"
 ```
 

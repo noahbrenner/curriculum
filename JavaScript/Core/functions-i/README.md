@@ -14,3 +14,6 @@ insights:
   - access-a-function-s-arguments-as-an-array
   - anonymous-functions
   - functions-are-objects
+
+game:
+  - taming-the-beast

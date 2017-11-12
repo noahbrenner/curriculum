@@ -14,3 +14,6 @@ insights:
   - parsing-numbers-and-ieee-754
   - base-conversion
   - using-the-double-tilde
+
+game:
+  - using the double-tilde-game

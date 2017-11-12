@@ -21,6 +21,7 @@ standards:
 tags:
   - workout
   - deep
+  - scope
 
 links:
 
