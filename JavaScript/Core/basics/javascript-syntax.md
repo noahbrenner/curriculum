@@ -61,8 +61,8 @@ What syntax is used in *JavaScript* for **single line** comments?
 
 ???
 
-*`//`
-*`/* */`
+* `//`
+* `/* */`
 
 ---
 ## Revision
@@ -71,5 +71,21 @@ What syntax is used in *JavaScript* for **block line** comments?
 
 ???
 
-*`/* */`
-*`//`
+* `/* */`
+* `//`
+
+---
+## Quiz
+
+headline: which of the following is a valid comment?
+
+question: |
+  1. // first comment
+  2. <!-- second comment
+  3. /* third comment */
+
+answers:
+  - 1, 2 & 3
+  - 1
+  - 1 & 3
+  - 2

@@ -14,6 +14,10 @@ category: must-know
 standards:
   js.browser-tooling: 10
 
+tags:
+  - introduction
+  - workout
+
 links:
   - https://developer.chrome.com/devtools
 

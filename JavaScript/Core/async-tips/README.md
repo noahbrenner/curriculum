@@ -4,7 +4,7 @@ type: insights-list
 
 description: Async techniques 101.
 
-section: 3
+section: 2
 
 parent: async
 

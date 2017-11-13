@@ -52,14 +52,30 @@ The output of the following snippet is ???
 ```
 console.log((1.3 + 2.3) == 3.6);
 ```
-*false
-*true
+* false
+* true
 
 ---
 ## Revision
 
 Instead of comparing two floating numbers, the best way to avoid *inaccuracies* is to ??? the numbers and compare the result to ???.
 
-*substract
-*third expected value
-*sum
+* subtract
+* third expected value
+* sum
+
+---
+## Quiz
+
+headline: what is 0.1 + 0.2?
+
+question: |
+  // What will be the value of x?
+  var x = 0.2 + 0.1;
+  console.log(x);
+
+answers:
+  - 0.30000000000000004
+  - 0.3
+  - 0.2999999999999999
+  - NaN
