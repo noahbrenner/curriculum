@@ -55,7 +55,7 @@ rounded_up = -(-numerator // denominator)
 ```
 
 Here's the former function in action:
-```py
+```python
 # converting 2048 with big endian
 >>> (2048).to_bytes(2, byteorder='big')
 b'\x08\x00'
@@ -72,7 +72,7 @@ b'\xe7'
 ```
 
 Similarly, the `.from_bytes()` method works in reverse:
-```py
+```python
 # converting to 2048, big endian
 >>> int.from_bytes(b'\x08\x00',
       byteorder="big")
@@ -93,7 +93,7 @@ Similarly, the `.from_bytes()` method works in reverse:
 ## Practice
 
 Fill the following snippet such that it will first convert `1024` to bytes and then perform the reverse operation.
-```py
+```python
 >>> int.???(
 (1024).???((1024).???, byteorder='big'),
 ???="big")
@@ -116,7 +116,7 @@ Fill the following snippet such that it will first convert `1024` to bytes and t
 ## Revision
 
 Complete the following snippet with missing `int` methods used for byte conversion:
-```py
+```python
 >>> (16).???(1, ???='big')
 b'\x10'
 

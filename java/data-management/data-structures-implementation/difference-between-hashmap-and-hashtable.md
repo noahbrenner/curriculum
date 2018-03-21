@@ -29,7 +29,7 @@ notes: ''
 ---
 ## Content
 
-Both `HashMap` and `Hashtable` implement Map interface but there are some significant differences between them. 
+Both `HashMap` and `Hashtable` implement Map interface but there are some significant differences between them.
 
 `HashMap` class is non synchronized and permits null values as key and value, whereas `Hashtable` does not allow nulls.
 
@@ -42,10 +42,9 @@ Which one of the following classes is synchronized?
 
 ???
 
-
-* `Hashtable` 
-* `HashMap` 
-* `both` 
+* `Hashtable`
+* `HashMap`
+* `both`
 * `none`
 
 ---
@@ -55,9 +54,7 @@ Which one of the following classes allow `null` values as keys?
 
 ???
 
-
-* `HashMap` 
-* `Hashtable` 
-* `both` 
+* `HashMap`
+* `Hashtable`
+* `both`
 * `none`
-

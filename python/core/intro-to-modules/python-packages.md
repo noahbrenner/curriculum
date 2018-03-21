@@ -26,7 +26,7 @@ A **package**[1] is a hierarchical file directory structure that defines a *sing
 
 Consider a file `available_rooms.py` in a directory called **Hotel**:
 
-```py
+```python
 # available_rooms.py
 
 def available(rooms):
@@ -34,7 +34,7 @@ def available(rooms):
 ```
 Then, a file `total_rooms.py` in the *same* directory:
 
-```py
+```python
 # total_rooms.py
 
 def all_rooms(total):
@@ -43,7 +43,7 @@ def all_rooms(total):
 
 Now that we have these files defined in out **Hotel package** we can use them in our script by importing this package:
 
-```py
+```python
 # rooms_update.py
 
 import Hotel
@@ -58,7 +58,7 @@ Hotel.all_rooms(25)
 ## Practice
 
 Complete the missing that such that the `Hotel` package is imported and used properly:
-```py
+```python
 ??? Hotel
 
 def foo(x):
@@ -78,7 +78,7 @@ def foo(x):
 ## Revision
 
 Say the `Hotel` package exposes the `available_rooms()` method. Complete the following code snippet such that only that function will be imported:
-```py
+```python
 ??? Hotel import ???
 
 def foo(x):

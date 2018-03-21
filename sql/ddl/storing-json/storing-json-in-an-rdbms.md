@@ -30,7 +30,7 @@ tags:
 ## Content
 
 **JSON**, or JavaScript Object Notation, is a string that has a semantic value. A JSON object looks like this:
-```JSON
+```json
 {
 	"id": 1,
 	"name": "Bulbasaur",
