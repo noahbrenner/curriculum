@@ -185,12 +185,3 @@ console.log(pi())
 * [object Object]
 * SyntaxError
 * [object Object]
-
-<<<<<<< HEAD
-=======
-answers:
-  - 'undefined'
-  - '{pi: 3.14}'
-  - 'SyntaxError'
-  - "{'pi': 3.14}"
->>>>>>> origin/ex-sql
