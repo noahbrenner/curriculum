@@ -8,3 +8,8 @@ insights:
   - python-s-fractions
   - working-with-decimals
   - math-for-complex-numbers
+
+
+exercises:
+  - py-practice-encryption
+  - py-practice-math-modules

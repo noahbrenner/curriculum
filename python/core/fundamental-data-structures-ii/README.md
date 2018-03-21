@@ -10,3 +10,8 @@ insights:
   - review-of-sets
   - review-of-dictionaries
   - build-in-dictionary-methods
+
+exercises:
+  - py-practice-data-structure
+  - py-practice-data-manipulation
+  - py-practice-data-manipulation2
